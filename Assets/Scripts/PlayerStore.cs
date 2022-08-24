@@ -7,12 +7,9 @@ public class PlayerStore : MonoBehaviour
     [SerializeField] int a;
     void Start()
     {
-        
+        a = 6;
+        print(a);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
